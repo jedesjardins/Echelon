@@ -1,1 +1,1 @@
-scr_createPerson("scientist");
+scr_initPerson("man");

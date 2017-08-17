@@ -1,5 +1,4 @@
 
-//scr_input();
 scr_updateDirection();
 scr_updateMotion();
 scr_updatePosition();
