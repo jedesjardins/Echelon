@@ -671,14 +671,6 @@
             }
         },
         {
-            "Key": "cf5ee513-43e9-40b0-8fea-7572b806952e",
-            "Value": {
-                "id": "faed0a34-0464-486f-8ba9-e9429ce80fca",
-                "resourcePath": "sprites\\spr_man_up\\spr_man_up.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d33865fd-bc85-42f7-a610-c5234ac8be04",
             "Value": {
                 "id": "dac87277-7cf3-4113-93bc-b7c06490359a",
@@ -700,6 +692,22 @@
                 "id": "ccdd5d2b-4481-4bd7-a57e-1dd32d3da1c0",
                 "resourcePath": "objects\\obj_wornitem\\obj_wornitem.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d6b5e548-f8dd-47cf-8b8e-14f9adb5ad5d",
+            "Value": {
+                "id": "c1e66dc0-c695-495a-b0c7-e120ffe7bd60",
+                "resourcePath": "sprites\\spr_man_down_attack\\spr_man_down_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d6d7d84b-d4d8-4f1d-92f5-42884b2ff17b",
+            "Value": {
+                "id": "71368cb2-9d82-4c2e-9734-69776302d18e",
+                "resourcePath": "sprites\\spr_man_up\\spr_man_up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
