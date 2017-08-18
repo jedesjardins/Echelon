@@ -6,7 +6,7 @@ if(keyboard_check(vk_shift))
 	lock_direction = true;
 }
 
-if(keyboard_check(vk_escape))
+if(keyboard_check(vk_control))
 {
 	//lock direction
 	toggle_running = true;
@@ -47,19 +47,14 @@ if(keyboard_check(vk_tab))
 if(keyboard_check_pressed(ord("E")))
 {
 	//throw right hand weapon
+	discard_right = true;
 }
 
 if(keyboard_check_pressed(ord("Q")))
 {
-	//throw left hand weapon
+	discard_left = true;
 }
 
-if(keyboard_check_released(vk_control))
-{
-	//run?
-	//TODO(James): make this run
-	scr_discardItem();
-}
 
 // ATTACK STUFF
 
