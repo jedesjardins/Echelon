@@ -17,7 +17,6 @@ running = false;
 
 if(state_attack)
 {
-	show_debug_message("attacking");
 	//end of attack
 	if(image_index > image_number - 1)
 	{

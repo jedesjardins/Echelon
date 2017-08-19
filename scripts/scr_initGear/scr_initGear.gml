@@ -29,27 +29,28 @@ gear_location_x_right = ds_map_create();
 gear_location_y_right = ds_map_create();
 
 gear_location_x_right[? "right"] = [-1, -3, -1, 2];
-gear_location_y_right[? "right"] = [6, 5, 6, 4];
+gear_location_y_right[? "right"] = [6, 5, 6, 5];
 
-gear_location_x_right[? "up"] = [5, 5, 5, 4];
-gear_location_y_right[? "up"] = [1, 3, 1, 0];
+gear_location_x_right[? "up"] = [5, 4, 5, 5];
+gear_location_y_right[? "up"] = [2, 0, 2, 3];
 
-gear_location_x_right[? "left"] = [0, -2, 0, 3];
+gear_location_x_right[? "left"] = [0, -3, 0, 2];
 gear_location_y_right[? "left"] = [1, 0, 1, 0];
 
-gear_location_x_right[? "down"] = [-6, -4, -6, -6];
+gear_location_x_right[? "down"] = [-5, -4, -5, -6];
 gear_location_y_right[? "down"] = [4, 5, 4, 2];
 
 gear_location_x_left = ds_map_create();
 gear_location_y_left = ds_map_create();
-gear_location_x_left[? "right"] = [-1, 2, -1, -5];
-gear_location_y_left[? "right"] = [2, 2, 3, 3];
 
-gear_location_x_left[? "up"] = [-6, -5, -6, -6];
-gear_location_y_left[? "up"] = [1, 0, 1, 4];
+gear_location_x_left[? "right"] = [-1, 1, -1, -4];
+gear_location_y_left[? "right"] = [1, 0, 1, 0];
+
+gear_location_x_left[? "up"] = [-6, -6, -6, -5];
+gear_location_y_left[? "up"] = [2, 3, 2, 0];
 
 gear_location_x_left[? "left"] = [0, 2, 0, -3];
-gear_location_y_left[? "left"] = [6, 5, 6, 4];
+gear_location_y_left[? "left"] = [6, 5, 6, 5];
 
 gear_location_x_left[? "down"] = [6, 6, 6, 5];
 gear_location_y_left[? "down"] = [4, 2, 4, 5];

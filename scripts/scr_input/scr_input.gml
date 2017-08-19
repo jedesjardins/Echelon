@@ -48,11 +48,13 @@ if(keyboard_check_pressed(ord("E")))
 {
 	//throw right hand weapon
 	discard_right = true;
+	scr_discardRightHand();
 }
 
 if(keyboard_check_pressed(ord("Q")))
 {
 	discard_left = true;
+	scr_discardLeftHand();
 }
 
 
@@ -70,9 +72,9 @@ if(mouse_check_button_pressed(mb_right))
 if(mouse_check_button_released(mb_right))
 {
 	//attack right
-	show_debug_message("pressed");
 	if(not state_attack)
 	{
+		image_index = 0;
 		lock_direction = true;
 		state_attack = true;
 		state_attack_hand = "right";
@@ -95,6 +97,7 @@ if(mouse_check_button_released(mb_left))
 	//attack left
 	if(not state_attack)
 	{
+		image_index = 0;
 		lock_direction = true;
 		state_attack = true;
 		state_attack_hand = "left";
