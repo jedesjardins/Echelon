@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0a290a18-0e11-442a-b22c-93ad493a64e8",
+            "Value": {
+                "id": "77d5de61-bef9-45bb-8d2d-d897f928e179",
+                "resourcePath": "sprites\\spr_uibox\\spr_uibox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c72dfc6-92d0-449e-9863-7a71aee33e7c",
             "Value": {
                 "id": "23733c4f-537f-44f1-971b-2126f0c0fd6a",
@@ -260,6 +268,14 @@
                 "id": "780424f3-106b-4046-9d32-3e61e8defd5e",
                 "resourcePath": "views\/3a6b9726-b152-4644-b815-1deb1d2d8870.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3d8afee4-5161-4b60-bd5e-59e948426eb2",
+            "Value": {
+                "id": "d4a5e081-8967-40e8-81d2-d27186f7ab9a",
+                "resourcePath": "sprites\\spr_man_down_attack_left\\spr_man_down_attack_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -503,6 +519,14 @@
             }
         },
         {
+            "Key": "96fe2dbf-551d-4f86-bec9-0cddac9e56c1",
+            "Value": {
+                "id": "c89b7a11-9455-46c6-a046-aa8e79017f6b",
+                "resourcePath": "objects\\object16\\object16.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9758042d-3373-44ce-93e2-627e568b7f6f",
             "Value": {
                 "id": "e0f0fafd-a838-44d5-a029-e769f31b7c5e",
@@ -655,6 +679,14 @@
             }
         },
         {
+            "Key": "bf3ef380-25c8-41d6-90f5-8e97b82e43fd",
+            "Value": {
+                "id": "c7d7d4cb-9b75-4b78-b7b9-27e8111af696",
+                "resourcePath": "scripts\\scr_drawBox\\scr_drawBox.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c2daed7e-447e-4b46-9261-01953a3e0eb7",
             "Value": {
                 "id": "a49a0ae6-bed2-4fd6-b055-e59cc95aa4a9",
@@ -698,7 +730,7 @@
             "Key": "d6b5e548-f8dd-47cf-8b8e-14f9adb5ad5d",
             "Value": {
                 "id": "c1e66dc0-c695-495a-b0c7-e120ffe7bd60",
-                "resourcePath": "sprites\\spr_man_down_attack\\spr_man_down_attack.yy",
+                "resourcePath": "sprites\\spr_man_down_attack_right\\spr_man_down_attack_right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -887,7 +919,8 @@
         "fbc84c1a-387d-43c3-a908-38ddaaa0e5f2",
         "ac602a95-69d6-4584-a29c-5440b1d76a23",
         "a5282854-cfac-49fb-96dc-5afb11e37f64",
-        "2cc9da80-0c06-42dc-9ae6-aecd0288cd19"
+        "2cc9da80-0c06-42dc-9ae6-aecd0288cd19",
+        "bf3ef380-25c8-41d6-90f5-8e97b82e43fd"
     ],
     "tutorial": ""
 }

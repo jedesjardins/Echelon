@@ -8,7 +8,8 @@
         "73ff8204-e18b-4143-8bb4-254e31fef8d6",
         "12fd2848-4d92-4c2f-ae76-f3ae696d20fb",
         "69384f66-66ac-4112-a657-f27d6c09a10d",
-        "d6b5e548-f8dd-47cf-8b8e-14f9adb5ad5d"
+        "d6b5e548-f8dd-47cf-8b8e-14f9adb5ad5d",
+        "3d8afee4-5161-4b60-bd5e-59e948426eb2"
     ],
     "filterType": "GMSprite",
     "folderName": "man",
