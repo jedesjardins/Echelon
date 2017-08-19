@@ -10,7 +10,8 @@
         "85b7ddb9-7646-4cc6-860b-4dd9a023337c",
         "2de38d7f-c37d-422d-b352-d88ee1470d3c",
         "2b7b6946-9376-4f34-953c-8d10f753783b",
-        "4b49a1f4-6c09-4fbc-b660-3aabbddf80a2"
+        "4b49a1f4-6c09-4fbc-b660-3aabbddf80a2",
+        "edf995d2-c458-41a5-8c07-fb748a968155"
     ],
     "filterType": "GMScript",
     "folderName": "people",

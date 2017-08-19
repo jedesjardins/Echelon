@@ -14,22 +14,18 @@ if(!lock_direction)
 	if(direction == 0) 
 	{
 		state_direction = "right";
-		scr_loadPersonSprite();
 	}
 	if(direction == 90)
 	{
 		state_direction = "up";
-		scr_loadPersonSprite();
 	}
 	if(direction == 180)
 	{
 		state_direction = "left";
-		scr_loadPersonSprite();
 	}
 	if(direction == 270)
 	{
 		state_direction = "down";
-		scr_loadPersonSprite();
 	}
 
 }

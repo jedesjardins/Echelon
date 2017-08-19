@@ -2,14 +2,14 @@
 
 if(keyboard_check(vk_shift))
 {
-	//lock direction
-	lock_direction = true;
+	//running
+	running = true;
 }
 
 if(keyboard_check(vk_control))
 {
 	//lock direction
-	toggle_running = true;
+	//toggle_running = true;
 }
 
 if(keyboard_check(ord("W")))
@@ -58,24 +58,48 @@ if(keyboard_check_pressed(ord("Q")))
 
 // ATTACK STUFF
 
-if(keyboard_check_pressed(mb_right))
+if(mouse_check_button_pressed(mb_right))
 {
 	//charge right
+	if(not state_attack)
+	{
+		
+	}
 }
 
-if(keyboard_check_released(mb_right))
+if(mouse_check_button_released(mb_right))
 {
 	//attack right
+	show_debug_message("pressed");
+	if(not state_attack)
+	{
+		lock_direction = true;
+		state_attack = true;
+		state_attack_hand = "right";
+		state_attack_type = "swing";
+		state_attack_angle = direction-45;
+	}
 }
 
-if(keyboard_check_pressed(mb_left))
+if(mouse_check_button_pressed(mb_left))
 {
 	//charge left
+	if(not state_attack)
+	{
+	
+	}
 }
 
 if(mouse_check_button_released(mb_left))
 {
 	//attack left
+	if(not state_attack)
+	{
+		lock_direction = true;
+		state_attack = true;
+		state_attack_hand = "left";
+		state_attack_type = "swing";
+	}
 }
 
 

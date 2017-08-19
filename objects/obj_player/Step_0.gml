@@ -2,6 +2,7 @@
 scr_updateDirection();
 scr_updateMotion();
 scr_updatePosition();
+scr_updateAction();
 scr_loadPersonSprite();
 
 var hands = gear[? "hands"];
@@ -12,8 +13,20 @@ go_up = false;
 go_down = false;
 go_right = false;
 go_left = false;
-toggle_running = false;
-lock_direction = false;
+running = false;
+
+if(state_attack)
+{
+	show_debug_message("attacking");
+	//end of attack
+	if(image_index > image_number - 1)
+	{
+		state_attack = false;
+		lock_direction = false;
+	}
+	
+	lock_direction = false;
+}
 
 depth = -y - sprite_height/2;
 

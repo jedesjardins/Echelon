@@ -1,6 +1,17 @@
-if(state_action != "none")
+//if(state_action != "none")
+if(state_attack)
 {
-	sprite_index = asset_get_index("spr_" + string(state_name) + "_" + string(state_direction) + "_" + string(state_action));
+	sprite_index = asset_get_index("spr_" + string(state_name) + "_" + string(state_direction) + "_" + "attack" + "_" + string(state_attack_hand));
+	
+	if(state_attack_type == "stab")
+	{
+		image_speed = 0;
+		image_index = 0;
+	}
+	else //swing
+	{
+		image_speed = 1;
+	}
 }
 else
 {
@@ -11,7 +22,7 @@ else
 		image_speed = 0;
 		image_index = 0;
 	}
-	else 
+	else //walk/run
 	{
 		image_speed = 1;
 	}
