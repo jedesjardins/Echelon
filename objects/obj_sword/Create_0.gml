@@ -1,1 +1,1 @@
-scr_createItem("sword");
+scr_createItem("sword", false);
