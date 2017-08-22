@@ -22,8 +22,12 @@ if(state_attack)
 	{
 		state_attack = false;
 		lock_direction = false;
+		image_index = 0;
 	}
 	
+}
+else
+{
 	lock_direction = false;
 }
 

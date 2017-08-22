@@ -98,6 +98,7 @@ if(mouse_check_button_released(mb_left))
 	if(not state_attack)
 	{
 		image_index = 0;
+		image_speed = 1;
 		lock_direction = true;
 		state_attack = true;
 		state_attack_hand = "left";

@@ -1,1 +1,1 @@
-scr_createItem("coin", true);
+scr_createItem("coin", true, 0);

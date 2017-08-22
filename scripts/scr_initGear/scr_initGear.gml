@@ -82,5 +82,5 @@ gear_location_y_left_attack[? "up"] = [0, 0, 0];
 gear_location_x_left_attack[? "left"] = [-4, -4, -4];
 gear_location_y_left_attack[? "left"] = [3, 4, 5];
 
-gear_location_x_left_attack[? "down"] = [1, 1, 2, 3, 3];
-gear_location_y_left_attack[? "down"] = [6, 6, 7, 6, 6];
+gear_location_x_left_attack[? "down"] = [1, 2, 3];
+gear_location_y_left_attack[? "down"] = [6, 7, 6];
