@@ -31,6 +31,8 @@ else
 	lock_direction = false;
 }
 
+show_debug_message("test");
+
 depth = -y - sprite_height/2;
 
 

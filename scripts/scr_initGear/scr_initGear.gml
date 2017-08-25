@@ -1,4 +1,6 @@
 
+var name = argument0;
+
 gear = ds_map_create();
 
 var hands = ds_map_create();

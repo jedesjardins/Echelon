@@ -11,7 +11,9 @@
         "2de38d7f-c37d-422d-b352-d88ee1470d3c",
         "2b7b6946-9376-4f34-953c-8d10f753783b",
         "4b49a1f4-6c09-4fbc-b660-3aabbddf80a2",
-        "edf995d2-c458-41a5-8c07-fb748a968155"
+        "edf995d2-c458-41a5-8c07-fb748a968155",
+        "2744811f-57b0-400b-9b0d-8f5420833caa",
+        "3c82eaaf-7c8c-42ff-85dc-8ab2d8df565f"
     ],
     "filterType": "GMScript",
     "folderName": "people",
